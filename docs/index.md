@@ -8,8 +8,7 @@ Zorg ervoor dat je de regels en richtlijnen van Metro Stad leest voordat je begi
 
 - [**Algemene Plaatselijke Verordening**](apv.md) bevat alle regels en richtlijnen van Metro Stad.
 - [**Politie Wetboek**](politie_wetboek.md) bevat alle regels en richtlijnen van de politie.
-- [**Risico Gebieden**](risico_gebieden.md) bevat alle informatie over risico gebieden.
-- [**Douane Gebieden**](douane_gebieden.md) bevat alle informatie over douane gebieden.
+- [**Overheid Gebieden**](douane_gebieden.md) bevat alle informatie over overheid gebieden.
 - [**No Fly Zones**](no_fly_zones.md) bevat alle informatie over no fly zones.
 - [**Belastingen**](belastingen.md) bevat alle informatie over belastingen. Bijvoorbeeld: voertuigbelasting.
 - [**Streamen**](streamen.md) bevat alle informatie over streamen in Metro Stad.

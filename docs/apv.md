@@ -47,7 +47,7 @@ De strafbepalingen van de APV zijn van toepassing op alle burgers van Metro Stad
 ### Artikel 2 - Cheats, Hacks en Glitches
 - Een persoon die gebruik maakt van software/hulpmiddelen die niet zijn toegestaan, zoals cheats en hacks. ==Categorie 9==
 !!! warning end "Aanvullende informatie"
-     Deze regel geldt ook voor Discord. Het gebruik maken van Better Discord is niet toegestaan.
+     Deze regel geldt ook voor Discord. Het gebruik maken van software zoals Better Discord, Vencord is niet toegestaan.
 - Het moedwillig misbruiken van een bug en- of exploit is niet toegestaan. ==Categorie 7==
 
 ### Artikel 3 - Bedreigen & Intimideren

@@ -43,6 +43,7 @@ theme:
     generator: false
 markdown_extensions:
   - attr_list
+  - md_in_html
   - tables
   - pymdownx.caret
   - pymdownx.mark
@@ -65,8 +66,9 @@ nav:
   - Hoofdpagina: index.md
   - Algemene Plaatselijke Verordening (APV): apv.md
   - Politie Wetboek: politie_wetboek.md
-  - Risico Gebieden: risico_gebieden.md
-  - Douane Gebieden: douane_gebieden.md
+  - Overheid Gebieden: douane_gebieden.md
   - No Fly Zones: no_fly_zones.md
   - Belastingen: belastingen.md
   - Streamen: streamen.md
+plugins:
+  - glightbox
