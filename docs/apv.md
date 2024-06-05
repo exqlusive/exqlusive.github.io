@@ -189,7 +189,7 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
 - Je mag niet dezelfde persoon (als groep) rippen binnen 30 minuten.
 - Na het rippen van een speler, mag je deze niet vermoorden. Met uitzondering van dat de speler een wapen trekt, of dat de speler een dreigement maakt.
 - Een wapen dien je fysiek te zien, voordat je de speler mag rippen van het wapen. Uitzonderingen hieronder beschreven.
-- Een slagwapen, mag een vuurwapen rippen. Pas op dit mag alleen wanneer diegene met een slagwapen in sla houding staat en in de eerste praatcirkel.
+- Een slagwapen mag een vuurwapen rippen. Pas op, dit mag alleen wanneer diegene met een slagwapen in sla houding staat en in de eerste praatcirkel.
 !!! info end "Uitzonderingen"
      - De speler draagt gezichtsbedekking (Helm, Masker, Bivakmuts), een baard of bril telt niet mee.
      - De speler draagt een holster
@@ -203,7 +203,7 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
      - Wapens
      - Communicatie middelen
 
-### Artikel 19 - Gezicht- en Stem- herkenning
+### Artikel 18 - Gezicht- en Stem- herkenning
 - Indien de speler duidelijk moeite doet om zijn stem te vervormen, dan is het niet toegestaan om een speler aan zijn/haar stem te herkennen. ==Categorie 2==
 - Het is toegestaan om gebruik te maken van externe software om je stem te vervormen. Dit mag expliciet alleen gebruikt worden tijdens illegale activiteiten. ==Categorie 2==
 - Het is niet toegestaan om een speler aan zijn/haar gezicht te herkennen, wanneer deze persoon een masker draagt en zijn/haar stem vervormt.
@@ -216,5 +216,5 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
 *[Categorie 6]: Een ban van 2 weken + 200 taken
 *[Categorie 7]: Een ban van 1 maand + 200 taken
 *[Categorie 8]: Een account wipe + 1 maand ban + 200 taken
-*[Categorie 9]: Permanent ban (geen unban mogelijk)
+*[Categorie 9]: Permanent ban (geen unban mogelijk) + Account wipe
 *[tweede categorie]: Schietwapens, zoals pistolen en (automatische-)geweren
