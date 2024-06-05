@@ -55,7 +55,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -146,45 +155,6 @@
       <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Zoeken" placeholder="Zoeken" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Zoeken">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Leegmaken" aria-label="Leegmaken" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-        <div class="md-search__suggest" data-md-component="search-suggest"></div>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Zoeken initialiseren
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -502,9 +472,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#artikel-19-gezicht-en-stem-herkenning" class="md-nav__link">
+  <a href="#artikel-18-gezicht-en-stem-herkenning" class="md-nav__link">
     <span class="md-ellipsis">
-      Artikel 19 - Gezicht- en Stem- herkenning
+      Artikel 18 - Gezicht- en Stem- herkenning
     </span>
   </a>
   
@@ -550,31 +520,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../risico_gebieden/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Risico Gebieden
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../douane_gebieden/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Douane Gebieden
+    Overheid Gebieden
   </span>
   
 
@@ -670,7 +620,7 @@
 <li><strong><abbr title="Een ban van 2 weken + 200 taken">Categorie 6</abbr></strong> - Een ban van 2 weken + 200 taken</li>
 <li><strong><abbr title="Een ban van 1 maand + 200 taken">Categorie 7</abbr></strong> - Een ban van 1 maand + 200 taken</li>
 <li><strong><abbr title="Een account wipe + 1 maand ban + 200 taken">Categorie 8</abbr></strong> - Een account wipe + 1 maand ban + 200 taken</li>
-<li><strong><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></strong> - Permanent ban (geen unban mogelijk) + Account wipe</li>
+<li><strong><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></strong> - Permanent ban (geen unban mogelijk) + Account wipe</li>
 </ul>
 <h2 id="aanvullende-informatie">Aanvullende informatie</h2>
 <ul>
@@ -718,28 +668,28 @@
 <ul>
 <li>Het bedreigen van overheidspersoneel, zoals politie, ambulance en brandweer is niet toegestaan. <mark><abbr title="Een ban van 1 week + 200 taken">Categorie 5</abbr></mark></li>
 <li>Het forceren van overheidspersoneel tot het fouilleren van een burger is niet toegestaan. <mark><abbr title="Een ban van 1 dag + 100 taken">Categorie 2</abbr></mark></li>
-<li>Het weggeven van goederen, geld en- of voertuigen aan andere spelers wanneer je stopt is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Het weggeven van goederen, geld en- of voertuigen aan andere spelers wanneer je stopt is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <h3 id="artikel-2-cheats-hacks-en-glitches">Artikel 2 - Cheats, Hacks en Glitches</h3>
 <ul>
-<li>Een persoon die gebruik maakt van software/hulpmiddelen die niet zijn toegestaan, zoals cheats en hacks. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Een persoon die gebruik maakt van software/hulpmiddelen die niet zijn toegestaan, zoals cheats en hacks. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <div class="admonition warning end">
 <p class="admonition-title">Aanvullende informatie</p>
-<p>Deze regel geldt ook voor Discord. Het gebruik maken van Better Discord is niet toegestaan.</p>
+<p>Deze regel geldt ook voor Discord. Het gebruik maken van software zoals Better Discord, Vencord is niet toegestaan.</p>
 </div>
 <ul>
 <li>Het moedwillig misbruiken van een bug en- of exploit is niet toegestaan. <mark><abbr title="Een ban van 1 maand + 200 taken">Categorie 7</abbr></mark></li>
 </ul>
 <h3 id="artikel-3-bedreigen-intimideren">Artikel 3 - Bedreigen &amp; Intimideren</h3>
 <ul>
-<li>Het is ten strengste verboden om andere spelers te bedreigen en- of te intimideren met een DDOS aanval. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
-<li>Het Doxen (Leaken van informatie) van andere spelers is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
-<li>Het DDOS'en andere spelers is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Het is ten strengste verboden om andere spelers te bedreigen en- of te intimideren met een DDOS aanval. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
+<li>Het Doxen (Leaken van informatie) van andere spelers is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
+<li>Het DDOS'en andere spelers is niet toegestaan. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <h3 id="artikel-4-irl-traden">Artikel 4 - IRL Traden</h3>
 <ul>
-<li>Het is niet toegestaan om in-game items, geld en- of diensten te verhandelen voor echt geld. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Het is niet toegestaan om in-game items, geld en- of diensten te verhandelen voor echt geld. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <h3 id="artikel-5-meta-gaming">Artikel 5 - Meta-gaming</h3>
 <ul>
@@ -786,13 +736,13 @@
 <ul>
 <li>Er wordt verwacht dat iedere speler de Nederlandse of Engelse taal beheerst. Indien iemand dit niet beheerst, is deze persoon niet welkom in de server.</li>
 <li>Andere talen dan de Nederlandse of Engelse taal zijn niet toegestaan, dit geldt ook voor Discord.</li>
-<li>Het weigeren om de Nederlandse of Engelse taal te spreken, kan leiden tot een straf <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Het weigeren om de Nederlandse of Engelse taal te spreken, kan leiden tot een straf <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <h3 id="artikel-8-alt-characters">Artikel 8 - Alt Characters</h3>
 <ul>
-<li>Het is niet toegestaan om meerdere accounts te hebben. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
-<li>Het is niet toegestaan om een ander account/persoon te gebruiken om je startersgeld over te maken. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
-<li>Het is niet toegestaan om te spoofen om op die manier een ander account te gebruiken. <mark><abbr title="Permanent ban (geen unban mogelijk)">Categorie 9</abbr></mark></li>
+<li>Het is niet toegestaan om meerdere accounts te hebben. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
+<li>Het is niet toegestaan om een ander account/persoon te gebruiken om je startersgeld over te maken. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
+<li>Het is niet toegestaan om te spoofen om op die manier een ander account te gebruiken. <mark><abbr title="Permanent ban (geen unban mogelijk) + Account wipe">Categorie 9</abbr></mark></li>
 </ul>
 <div class="admonition warning end">
 <p class="admonition-title">Aanvullende informatie</p>
@@ -920,7 +870,7 @@
 <li>Je mag niet dezelfde persoon (als groep) rippen binnen 30 minuten.</li>
 <li>Na het rippen van een speler, mag je deze niet vermoorden. Met uitzondering van dat de speler een wapen trekt, of dat de speler een dreigement maakt.</li>
 <li>Een wapen dien je fysiek te zien, voordat je de speler mag rippen van het wapen. Uitzonderingen hieronder beschreven.</li>
-<li>Een slagwapen, mag een vuurwapen rippen. Pas op dit mag alleen wanneer diegene met een slagwapen in sla houding staat en in de eerste praatcirkel.</li>
+<li>Een slagwapen mag een vuurwapen rippen. Pas op, dit mag alleen wanneer diegene met een slagwapen in sla houding staat en in de eerste praatcirkel.</li>
 </ul>
 <div class="admonition info end">
 <p class="admonition-title">Uitzonderingen</p>
@@ -941,7 +891,7 @@
 <li>Communicatie middelen</li>
 </ul>
 </div>
-<h3 id="artikel-19-gezicht-en-stem-herkenning">Artikel 19 - Gezicht- en Stem- herkenning</h3>
+<h3 id="artikel-18-gezicht-en-stem-herkenning">Artikel 18 - Gezicht- en Stem- herkenning</h3>
 <ul>
 <li>Indien de speler duidelijk moeite doet om zijn stem te vervormen, dan is het niet toegestaan om een speler aan zijn/haar stem te herkennen. <mark><abbr title="Een ban van 1 dag + 100 taken">Categorie 2</abbr></mark></li>
 <li>Het is toegestaan om gebruik te maken van externe software om je stem te vervormen. Dit mag expliciet alleen gebruikt worden tijdens illegale activiteiten. <mark><abbr title="Een ban van 1 dag + 100 taken">Categorie 2</abbr></mark></li>
@@ -1014,5 +964,7 @@
       <script src="../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
