@@ -39,6 +39,8 @@ theme:
         name: Verander naar lichte modus
       primary: deep purple
       accent: blue
+  extra:
+    generator: false
 markdown_extensions:
   - attr_list
   - tables
