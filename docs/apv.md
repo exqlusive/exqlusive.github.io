@@ -184,10 +184,11 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
 - TBF
 - 
 ### Artikel 17 - Rippen van spelers 
+- Spelers onder de 8 uur speeltijd mogen niet geript worden. Je kan dit checken door middel van `/playtime SPELER_ID`.
 - Wanneer een speler bezig is met een illegale activiteit, of rijdt weg van een illegale activiteit, mag je deze persoon rippen.
-- Buitenom illegale activiteiten is het niet toegestaan om zomaar een speler te rippen. Uitzonderingen staan hieronder beschreven.
+- Buitenom illegale activiteiten is het niet toegestaan om zomaar een speler te rippen van items. Uitzonderingen staan hieronder beschreven.
 - Je mag niet dezelfde persoon (als groep) rippen binnen 30 minuten.
-- Na het rippen van een speler, mag je deze niet vermoorden. Met uitzondering van dat de speler een wapen trekt, of dat de speler een dreigement maakt.
+- Na het rippen van een speler, mag je deze niet vermoorden. Met uitzondering van dat de speler een wapen trekt, of dat de speler een dreigement maakt. Als jij een wapen in iemands inventory ziet tijdens het fouilleren, zonder deze daadwerkelijk gezien te hebben, mag je deze niet afpakken van de speler.
 - Een wapen dien je fysiek te zien, voordat je de speler mag rippen van het wapen. Uitzonderingen hieronder beschreven.
 - Een slagwapen mag een vuurwapen rippen. Pas op, dit mag alleen wanneer diegene met een slagwapen in sla houding staat en in de eerste praatcirkel.
 !!! info end "Uitzonderingen"
@@ -195,6 +196,8 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
      - De speler draagt een holster
      - De speler praat over illegale activiteiten
      - De speler heeft een wapen in zijn handen
+
+     Wanneer de speler voldoet aan 1 van bovenstaande, mag je alle illegale items inclusief communicatie middelen afnemen.
 !!! success end "Overige informatie"
      Wanneer je een speler ript, wanneer deze bezig is met een illegale activiteit, mag je alle illegale items van de persoon afpakken.
 
