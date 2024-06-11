@@ -34,3 +34,9 @@ jobs:
           echo 'apv.metrostad.nl' > ./site/CNAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  pages-build-deployment:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger pages build deployment
+        run: echo "Run your pages build deployment step here"
