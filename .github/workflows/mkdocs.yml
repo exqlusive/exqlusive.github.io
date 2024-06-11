@@ -31,7 +31,6 @@ jobs:
       - name: Upload site as artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages
           path: site # The folder where mkdocs build outputs the site
 
   # Deploy job
