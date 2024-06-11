@@ -1,13 +1,12 @@
-name: ci
-
+name: ci 
 on:
   push:
     branches:
       - main
-
+permissions:
+  contents: write
 jobs:
-  # Build job
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,27 +27,4 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox
       - run: mkdocs build
-      - name: List files in 'site' directory
-        run: ls -lR site
-      - name: Upload site as artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: site # The folder where mkdocs build outputs the site
-
-  # Deploy job
-  deploy:
-    needs: build
-
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - run: mkdocs gh-deploy --force
