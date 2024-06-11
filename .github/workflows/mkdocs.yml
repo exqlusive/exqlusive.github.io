@@ -29,4 +29,7 @@ jobs:
       - run: mkdocs build
       - run: mkdocs gh-deploy --force
       - name: Deploy GitHub Pages site
-      - uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@v4.0.5
+        with:
+          branch: gh-pages # Or the branch you want to deploy to
+          folder: site # The folder where mkdocs build outputs the site
