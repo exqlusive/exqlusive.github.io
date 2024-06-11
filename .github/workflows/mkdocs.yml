@@ -28,6 +28,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox
       - run: mkdocs build
+      - name: List files in 'site' directory
+        run: ls -lR site
       - name: Upload site as artifact
         uses: actions/upload-pages-artifact@v1
         with:
