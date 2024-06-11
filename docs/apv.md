@@ -221,3 +221,5 @@ Uitzonderingen kunnen gemaakt worden in overleg met het staff team.
 *[Categorie 8]: Een account wipe + 1 maand ban + 200 taken
 *[Categorie 9]: Permanent ban (geen unban mogelijk) + Account wipe
 *[tweede categorie]: Schietwapens, zoals pistolen en (automatische-)geweren
+
+test
